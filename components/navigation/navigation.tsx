@@ -7,7 +7,7 @@ const Navigation = () => {
       <PaddingContainer>
         <div className="py-5 flex items-center justify-between">
           <Link href="/" className="text-lg font-bold">
-            Explorer
+            Citizen
           </Link>
           <nav>
             <ul className="flex items-center gap-4 text-neutral-600">

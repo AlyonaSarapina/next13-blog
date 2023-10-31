@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
         <div className="mt-6 flex justify-between gap-4 flex-wrap">
           <div>
-            <div className="font-medium text-lg">#exploretheworld</div>
+            <div className="font-medium text-lg">#citizenoftheworld</div>
             <div className="flex items-start gap-3 text-neutral-600 mt-2">
               <SocialLink
                 platform="linkedin"
