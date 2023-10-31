@@ -16,15 +16,17 @@ const PostCard = ({
 }: PostProps) => {
   return (
     <Link
-      className={`${
+      className={`@container ${
         layout === "horizontal"
-          ? "grid grid-cols-2 gap-10 items-center space-y-10"
+          ? "grid grid-cols-1 md:grid-cols-2 gap-10 items-center"
           : "space-y-10"
       } `}
       href={`/post/${post.slug}`}
     >
       <Image
-        className={`rounded-md w-full object-cover object-center max-h-[300px] ${reverse ? "order-last" : ""}`}
+        className={`rounded-md w-full object-cover object-center max-h-[300px] ${
+          reverse ? "md:order-last" : ""
+        }`}
         alt={post.title}
         src={post.image}
         width={600}
